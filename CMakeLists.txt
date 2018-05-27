@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project(vision_depth)
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( postit_detect postit_detect.cpp )
+target_link_libraries( postit_detect ${OpenCV_LIBS} )
+add_executable( select_search select_search.cpp )
+target_link_libraries( select_search ${OpenCV_LIBS} )

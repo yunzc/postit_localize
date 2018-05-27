@@ -1,0 +1,4 @@
+/home/yun/vision/postit_localize/CMakeFiles/edit_cache.dir
+/home/yun/vision/postit_localize/CMakeFiles/rebuild_cache.dir
+/home/yun/vision/postit_localize/CMakeFiles/select_search.dir
+/home/yun/vision/postit_localize/CMakeFiles/postit_detect.dir
